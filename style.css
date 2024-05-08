@@ -1,3 +1,103 @@
-.con{
-    padding: 40px;
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+.content{
+    padding-inline: 40px;
+    padding-top: 36px;
+    font-family: Inter;
+    color: #171717;
+
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 28px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 52px;
+    font-size: 17.97px;
+
+
+
+}
+.navbar_build_button{
+    display: flex;
+    flex-direction: row;
+    border-radius: 1600px;
+    background-color: #171717;
+    color: #fff;
+    padding: 13px;
+    gap: 24px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 63% 37%;
+    align-items: end;
+    gap: 27px;
+    padding-top: 120px;
+}
+.main h1{
+    font-size: 70.25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.main h1 span{
+    color:#450c7d;
+}
+.main p{
+    color: #171717;
+    font-size: 17.81px;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+.main p span{
+    opacity: 76%;
+}
+.main_build{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 24px;
+}
+.cube{
+    color: #fff;
+    background-color: #171717;
+    padding: 32px;
+    padding-bottom: 192px;
+    margin-top: 70px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+.cube_text_title{
+    display: flex;
+    align-items: center;
+    gap: 14.6px;
+}
+.cube_text p{
+    opacity: 76%;
+}
+.section2{
+    margin-top: 104px ;
+    display: grid;
+    grid-template-columns: 43% 57%;
+    grid-template-rows: 80% 20%;
+}
+.section2_imgs{
+    display: flex;
+    
+    gap: 20px;
+}
+.section2_slider{
+    grid-column: 2 ;
+    grid-row: 2 ;
 }
